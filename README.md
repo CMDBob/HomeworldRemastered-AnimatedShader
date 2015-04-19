@@ -23,9 +23,6 @@ For a scrolling and rotating texture, the parameters are: `x_scroll,y_scroll,rot
 
 (The last number in the parameters is which type of animation it is, 0 for flipbook, 1 for scroll and rotate.)
 
-##Caveats
-There's only two major caveats with the shader; the main one is that you can't have both types of animation at the same time.
-
 #Thanks and Other Information
 
 Thanks go to Sastrei and BitVenom on the Gearbox forums for their help.
