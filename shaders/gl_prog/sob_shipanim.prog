@@ -1,8 +1,6 @@
 #def SHIP_Team
 #import sob_share_shipanim.imp
 
-debugReload 10
-
 // Locals
 local	tex			inTexDiff		0
 local	tex			inTexGlow		1
