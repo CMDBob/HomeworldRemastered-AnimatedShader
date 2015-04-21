@@ -1,0 +1,13 @@
++shipAnim
+	$diffuse[DXT1] = 1 1 1 1		# diffuse param
+		DIFF = R G B 1
+	$glow[DXT1]= 0 0 0 1
+		GLOW = G G G G
+		SPEC = B B B B
+		REFL = R R R R
+	$team[DXT1] = 1 1 0 1
+		TEAM = 1 1 1 r	#invert into a...
+		STRP = 1 1 1 g
+		PAIN = 1 1 1 b
+	$normal[DXT1]= 5 5 1 1
+		NORM[B] = R G B 1

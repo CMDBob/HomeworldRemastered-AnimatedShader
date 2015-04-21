@@ -6,7 +6,7 @@ This shader allows for "flipbook" animation, and scrolling/rotation animation, w
 
 #Usage
 
-To use the shader, place the shader folder into your mod folder. If you already have custom shaders, merge the `mod_alias`, `mod_programs`, and `mod_surfaces`  files into your existing ones. 
+To use the shader, place the shader folder into your mod folder. If you already have custom shaders, merge the `mod_alias`, `mod_programs`, and `mod_surfaces`  files into your existing ones. Drop the `ANIMSHADER.MAP` file into your HODOR directory so HODOR can properly process meshes using the shader.
 
 Then, in your ship, use shipAnim as the shader. To control the shader, add a `HOLD_PARAMS` node to the `ROOT_LOD[0]` node, then add a node to the `HOLD_PARAMS` node, called `MAT[<materialname>]_PARAM[animParams]_Type[RGBA]_Data[<parameters>]`
 
